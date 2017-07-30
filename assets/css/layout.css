@@ -1,0 +1,66 @@
+
+
+body {
+	background-color: white;
+}
+
+.fixed_header {
+	float: left;
+	width: 50%;
+	background: red;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+.about {
+	float: left;
+	width: 10%;
+	background: green;
+	padding: 20px;
+	margin-bottom: 10px;
+
+}
+
+.portfolio {
+	float: left;
+	width: 10%;
+	background: blue;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+.contact {
+	float: left;
+	width: 10%;
+	background: yellow;
+	padding: 20px;
+	margin-bottom: 10px;
+}
+
+.wrapper {
+	width: 600px;
+	margin: 0 auto 0 auto;
+	padding: 20px;
+	overflow: auto;
+
+}
+
+.content {
+	float: right;
+	
+	
+}
+
+
+#twitter {
+	float: right;
+	background-color: orange;
+	padding: 20px;
+	margin-bottom: 10px;
+
+}
+
+#Profile {
+	float: right;
+    margin: 0 0 10px 10px;
+}
