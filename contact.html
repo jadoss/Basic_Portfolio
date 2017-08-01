@@ -1,15 +1,70 @@
-<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-	<div class="row">
-		<label for="name">Your name:</label><br />
-		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic_Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/layout.css">
+</head>
+<body>
+	
+	<div class="header">
+
+		<div class="container">
+
+			<div class="logo">
+
+				<h1>James Doss</h1>
+
+			</div>
+
+			<div class="nav">
+				<ul>
+					<li><a href="index.html">about</a></li>
+					<li><a href="portfolio.html">portfolio</a></li>
+					<li><a href="contact.html">contact</a></li>
+
+				</ul>
+			</div>
+		</div>
 	</div>
-	<div class="row">
-		<label for="email">Your email:</label><br />
-		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	<div class="container">
+
+		<div class="contactbox">
+			<p class="contact_me"><h3>Contact Me</h3></p>
+			<ul>
+				<li><a href="#"><img src="assets/images/github.png" class="git" height="30" width="30"></a></li>
+				<li><a href="#"><img src="assets/images/instagram.png" class="ig" height="30" width="30"></a></li>
+				<li><a href="#"><img src="assets/images/Linkedin.png" class="link" height="30" width="30"></a></li>
+			</ul>
+		</div>
+
+		<div class="content">
+
+			<h3>Contact Form</h3>
+
+			<form>
+        
+    			<label>Name</label>
+    			<input name="name" placeholder="Type Here">
+            
+    			<label>Email</label>
+    			<input name="email" type="email" placeholder="Type Here">
+            
+    			<label>Message</label>
+    			<textarea name="message" placeholder="Type Here"></textarea>
+    			        
+    			<input id="submit" name="submit" type="submit" value="Submit">
+        
+			</form>
+
+
+
+		</div>
+
 	</div>
-	<div class="row">
-		<label for="message">Your message:</label><br />
-		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+
+	<footer class="footer">
+		<p>copyright</p>
+	</footer>
 	</div>
-	<input id="submit_button" type="submit" value="Send email" />
-</form>						
+</body>
+</html>

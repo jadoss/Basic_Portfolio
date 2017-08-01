@@ -1,66 +1,114 @@
-
-
 body {
-	background-color: white;
+	width: 100%;
+	margin: auto;
+	background: lightgray;
 }
 
-.fixed_header {
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header {
+	background: white;
+	width: 100%;
+	top: 0;
+	position: fixed;
+}
+
+.logo {
 	float: left;
-	width: 50%;
-	background: red;
-	padding: 20px;
-	margin-bottom: 10px;
+	font-family: "helvetica";
+	font-size: 15px;
+	background: #41aaa5;
+	padding: 15px;
+
+
 }
 
-.about {
+a {
+	 text-decoration: none;
+	 color: lightgray;
+}
+
+li {
+	list-style: none;
 	float: left;
-	width: 10%;
-	background: green;
-	padding: 20px;
-	margin-bottom: 10px;
+	margin-left: 15px;
+	padding-top: 15px;
+	padding-right: 15px;
+
 
 }
 
-.portfolio {
-	float: left;
-	width: 10%;
-	background: blue;
-	padding: 20px;
-	margin-bottom: 10px;
-}
-
-.contact {
-	float: left;
-	width: 10%;
-	background: yellow;
-	padding: 20px;
-	margin-bottom: 10px;
-}
-
-.wrapper {
-	width: 600px;
-	margin: 0 auto 0 auto;
-	padding: 20px;
-	overflow: auto;
-
+.nav {
+	float: right;
 }
 
 .content {
-	float: right;
-	
-	
+	padding-top: 10px;
+	margin-top: 200px;
+	background-color: #fff;
+	border: 2px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	width: 500px;
+	color: #000000;
+
+
 }
 
-
-#twitter {
-	float: right;
-	background-color: orange;
-	padding: 20px;
+.profile {
+	float: left;
+	margin-right: 10px;
 	margin-bottom: 10px;
+	margin-top: 10px;
+	border: none;
+	padding: 5px;
 
 }
 
-#Profile {
+/*-- Contact Form --*/
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+/*-- Contact Box -*/
+
+.contact_me {
+	text-align: center;
+	margin-left: 5px
+}
+
+.contactbox {
 	float: right;
-    margin: 0 0 10px 10px;
+	width: 200px;
+	height: 200px;
+	background: white;
+}
+
+.ig {
+	float: right;
+}
+
+.git {
+	float: right;
+}
+
+.link {
+	float: right;
+}
+/*-footer-*/
+
+.footer {
+	width: 100%;
+	background: gray;
+	padding: 40px 0px;
+	text-align: center;
+	color: white
+
 }
