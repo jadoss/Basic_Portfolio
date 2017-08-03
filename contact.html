@@ -1,70 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
+
 <head>
-	<title>Basic_Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/layout.css">
+    <title>James Doss</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/layout.css">
 </head>
+
 <body>
-	
-	<div class="header">
+    <div class="wrapper">
+        <div class="namecontainer">
+            <div class="myname">
+                <h1>James Doss</h1>
+            </div>
+            <div class="header_container">
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="contact_bars">
+                <h3>Connect with Me</h3>
+                <br>
+                <a href="https://github.com/jadoss" target="_blank">
+                    <img class="github" src="assets/images/github.png" alt="github" height="75" width="75"></a>
+                <a href="#" target="_blank">
+                    <img class="linkedin" src="assets/images/Linkedin.png" alt="Linkedin" height="75" width="75"></a>
+                <a href="https://instagram.com/doosetrain" target="_blank">
+                    <img class="instagram" src="assets/images/instagram.png" alt="instagram" height="75" width="75">
+                </a>
+            </div>
+            <div class="content">
+                <h2>Contact</h2>
+                <br>
+                <form action="contact.html" method="post">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="email" id="name" name= "user_name" placeholder="Guy Pierce">
+                        <br>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="mail" name="user_email" placeholder="example@gmail.com"></label>
+                        <br>
+                    </div>
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="your_message"></textarea>
+                        <br>
+                    </div>
+                    <div class="button">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+    <p>Copyright 2017 James Doss</p>
+    </div>
 
-		<div class="container">
-
-			<div class="logo">
-
-				<h1>James Doss</h1>
-
-			</div>
-
-			<div class="nav">
-				<ul>
-					<li><a href="index.html">about</a></li>
-					<li><a href="portfolio.html">portfolio</a></li>
-					<li><a href="contact.html">contact</a></li>
-
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-
-		<div class="contactbox">
-			<p class="contact_me"><h3>Contact Me</h3></p>
-			<ul>
-				<li><a href="#"><img src="assets/images/github.png" class="git" height="30" width="30"></a></li>
-				<li><a href="#"><img src="assets/images/instagram.png" class="ig" height="30" width="30"></a></li>
-				<li><a href="#"><img src="assets/images/Linkedin.png" class="link" height="30" width="30"></a></li>
-			</ul>
-		</div>
-
-		<div class="content">
-
-			<h3>Contact Form</h3>
-
-			<form>
-        
-    			<label>Name</label>
-    			<input name="name" placeholder="Type Here">
-            
-    			<label>Email</label>
-    			<input name="email" type="email" placeholder="Type Here">
-            
-    			<label>Message</label>
-    			<textarea name="message" placeholder="Type Here"></textarea>
-    			        
-    			<input id="submit" name="submit" type="submit" value="Submit">
-        
-			</form>
-
-
-
-		</div>
-
-	</div>
-
-	<footer class="footer">
-		<p>copyright</p>
-	</footer>
-	</div>
 </body>
 </html>
